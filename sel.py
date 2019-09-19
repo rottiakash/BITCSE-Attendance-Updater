@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.support.select import Select
 import xlrd
 import json
-wb = xlrd.open_workbook('3rd.xls')
+wb = xlrd.open_workbook('error.xls')
 sheet = wb.sheet_by_index(0)
 atds = {}
 i = 2
